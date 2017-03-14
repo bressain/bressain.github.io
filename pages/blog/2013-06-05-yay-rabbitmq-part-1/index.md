@@ -12,7 +12,7 @@ blogger_orig_url: http://www.dinkelburt.com/2013/06/yay-rabbitmq-part-1.html
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-  ![rabbitmq logo]({{ site.assetsurl }}/img/rabbitmq_logo_strap.png)
+  <img src="rabbitmq_logo_strap.png" alt="rabbitmq logo" />
 </div>
 
 One thing I've been working with a lot lately is [RabbitMQ](http://www.rabbitmq.com/). It was a bit confusing to work with at first but I think a lot of that was primarily because there was already a code base in place that was using it. Now that I've had a chance to understand the why's and hows, I thought I'd share some of my experiences with it.<!--more-->
@@ -53,9 +53,8 @@ When you first connect an email client to an email account, everything comes thr
 ### Makes Sense, Now What?
 
 <div markdown="1" class="center-image captioned-image">
-  ![RabbitMQ cluster diagram]({{ site.assetsurl }}/img/cluster.png)
-
-  One exchange and two queues with different routing keys.
+    <img src="cluster.png" alt="RabbitMQ cluster diagram" />
+    One exchange and two queues with different routing keys.
 </div>
 
 So here's what I've covered conceptually in the image above. The `my.queue` queue is pulling messages from the `my.exchange` exchange that have a routing key of `my.key`. The `my.other.queue` queue is pulling messages from the same exchange, but only messages with a `my.other.key` routing key.

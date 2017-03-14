@@ -13,7 +13,7 @@ blogger_orig_url: http://www.dinkelburt.com/2013/03/maximize-your-commute-with-p
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-  ![CarCast logo]({{ site.assetsurl }}/img/CarCast.png)
+  <img src="CarCast.png" alt="CarCast logo" />
 </div>
 
 I have a commute. It's not a long commute, but long enough (20 minutes-ish). Although I enjoy listening to music while driving, **I've found that my time is better spent listening to something educational or interesting through podcasts.**<!--more-->
@@ -26,7 +26,7 @@ The way you subscribe to a podcast is much like subscribing to an RSS feed. Most
 
 ### So What Do You Listen To?
 
-I created a nifty page that I'll try to keep up to date [here]({{ site.baseurl }}/podcasts.html). But here's the short list version relevant to right now:
+I created a nifty page that I'll try to keep up to date [here](/pages/podcasts/). But here's the short list version relevant to right now:
 
 * [.Net Rocks!](http://www.dotnetrocks.com/)
 * [Hanselminutes](http://www.hanselminutes.com/)
@@ -41,4 +41,4 @@ I created a nifty page that I'll try to keep up to date [here]({{ site.baseurl }
 If you're not a programmer, find something you're interested in. There are a TON of podcasts covering whatever subject you may be interested in. So go forth and maximize your commute! Listen to some podcasts!
 
 [Updated 3/12/2014]
-I've moved my podcast list to a static page that I try to keep updated: [Podcast Wot I Listen To](/podcasts.html)
+I've moved my podcast list to a static page that I try to keep updated: [Podcast Wot I Listen To](/pages/podcasts/)

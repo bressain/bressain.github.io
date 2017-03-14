@@ -12,10 +12,10 @@ blogger_id: tag:blogger.com,1999:blog-6488571575423175085.post-30035113168391136
 blogger_orig_url: http://www.dinkelburt.com/2014/04/yes-you-belong-here-what-is-impostor.html
 permalink: /:year/:month/:title.html
 ---
-This is part one of the series on my talk about impostor syndrome. You can read the second part [here]({{ site.baseurl }}{% post_url 2014-05-11-yes-you-belong-here-overcoming-impostor %}).
+This is part one of the series on my talk about impostor syndrome. You can read the second part [here](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/).
 
 <div markdown="1" class="inline-image">
-  ![three cats one dog all fluff]({{ site.assetsurl }}/img/Imposter.jpg){:height="194px" width="320px"}
+    <img src="Imposter.jpg" alt="three cats one dog all fluff" style="height:194px;width:320px;" />
 </div>
 
 This past month I spoke at the 2014 Spring Utah Code Camp. I don't speak at conferences generally (2nd time speaking at a conference) but was convinced by some friends that I should speak about something. I only like to speak about subjects that I know quite a bit about and since I've been fighting a mild case of impostor syndrome on and off for the past year or so, it felt like a good fit.
@@ -73,6 +73,6 @@ Impostor syndrome can push people to level up in their skills but if they have a
 
 ### Thanks Bressain, Now I'm Sad
 
-Sorry about that, **there really is a silver lining to all this** though! I don't want to try to fit everything into one post (already at tl;dr length IMO) so [next post]({{ site.baseurl }}{% post_url 2014-05-11-yes-you-belong-here-overcoming-impostor %}) will be about what you can do about impostor syndrome. Feel free to comment below or hit me up on Twitter and Google+.
+Sorry about that, **there really is a silver lining to all this** though! I don't want to try to fit everything into one post (already at tl;dr length IMO) so [next post](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/) will be about what you can do about impostor syndrome. Feel free to comment below or hit me up on Twitter and Google+.
 
-<script async="" class="speakerdeck-embed" data-id="7e2c6cb08eea0131941d3e2d8ace8b00" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="7e2c6cb08eea0131941d3e2d8ace8b00" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

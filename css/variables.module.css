@@ -1,0 +1,8 @@
+:root {
+  --text-color: hsla(0,0%,0%,0.8);
+  --brand-color-lightest: #8CDC8C;
+  --brand-color-lighter: #5CC45C;
+  --brand-color: #39A939;
+  --brand-color-darker: #1F911F;
+  --brand-color-darkest: #0A730A;
+}

@@ -16,10 +16,10 @@ I just read Michael Feathers' post [Avoid Null Checks by Replacing Finders with 
 
 I am going to concur with Michael, **null checking looks ugly**. I hate null checking so much that often I will change a null check like in his example to a one or two liner return just so the ugly is minimized:
 
-{% highlight csharp linenos %}
+```lang=csharp
 if (person == null)
     return;
-{% endhighlight %}
+```
 
 So what he suggests is **rather than ask the object for state, pass a message to the object** that it can handle. I've been [reading](http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/)/[hearing](http://rubyrogues.com/category/book-club/) about the whole message passing idea in OOP languages lately ([especially in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/)) and although I understand the concept, it's nice to have it illustrated in the post in a useful way.
 
@@ -29,45 +29,45 @@ So there's a little bit of a love-fest going on in the post with Ruby. Or is it 
 
 Poor C# isn't even close to as hip as Ruby nor does it share the kind of heritage that Java has with 'nix OSs but it has had lambdas for several years now and the syntax is quite good. When I started replicating the code in question, I came up with this:
 
-{% highlight csharp linenos %}
+```lang=csharp
 _dataSource.Person(id, person =>
     {
         person.PhoneNumber = phoneNumber;
         _dataSource.UpdatePerson(person);
     });
-{% endhighlight %}
+```
 
 I'd say that it's as readable as the Ruby counterpart:
 
-{% highlight ruby linenos %}
+```lang=ruby
 data_source.person(id) do |person|
   person.phone_number = phone_number
   data_source.update_person person
 end
-{% endhighlight %}
+```
 
 ### Going Deeper
 
 Being pleased with myself, I decided to replicate what a common data source implementation would look like and came to Michael's sad conclusion that **we usually ask for the null check pattern** so much that most base/system code is infected with it:
 
-{% highlight csharp linenos %}
+```lang=csharp
 public void Person(int id, Action<person> actionOnPerson)
 {
     var p = _database.Get<person>(id);
     if (p != null)
         actionOnPerson(p);
 }
-{% endhighlight %}
+```
 
 This can be mitigated a bit by calling something that returned an `IEnumerable` or `IList`:
 
-{% highlight csharp linenos %}
+```lang=csharp
 public void Person(int id, Action<person> actionOnPerson)
 {
     foreach (var p in _database.GetRows<person>(id))
         actionOnPerson(p);
 }
-{% endhighlight %}
+```
 
 It might not be as fancy a solution as in Ruby but it'll have to do for now.
 

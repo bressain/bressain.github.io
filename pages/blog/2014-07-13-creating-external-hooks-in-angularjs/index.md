@@ -25,7 +25,7 @@ Since the widget would usually be in an Angular app, making an Angular directive
 
 Making the widget itself wasn't too bad but making those external hooks was a bear (for me anyway). The code is a little stripped down for public consumption but here's basically what I started with:
 
-{% highlight javascript linenos %}
+```lang=js
 'use strict';
 
 angular.module('comment-widget', []);
@@ -90,23 +90,23 @@ angular.module('comment-widget').directive('commentWidget', function () {
     template: template
   }
 });
-{% endhighlight %}
+```
 
 ### Move Focus To Another Widget
 
 First up was moving focus to another widget. This actually wasn't too bad but my first attempt was pretty terrible (it involved some external javascript object that was difficult to use). Thanks to some tips from a coworker, it was decided to use a bit of the jqLite included to trigger a jQuery event on button click.
 
-{% highlight javascript linenos %}
+```lang=js
 link: function (scope, element, attrs) {
   element.find('.buttonL').on('click', function () {
     element.triggerHandler($.Event('comment.click', { objectId: scope.objectId, objectTypeId: scope.objectTypeId }));
   });
 }
-{% endhighlight %}
+```
 
 And then the accompanying html:
 
-{% highlight html linenos %}
+```lang=js
 <script>
   $(function () {
     $('#my-widget').on('comment.click', function (data) {
@@ -114,7 +114,7 @@ And then the accompanying html:
     });
   });
 </script>
-{% endhighlight %}
+```
 
 There are a few things that may seem odd here but they are super important to remember:
 
@@ -126,15 +126,15 @@ There are a few things that may seem odd here but they are super important to re
 
 Like the previous requirement, my first attempt was pretty terrible until I brought jQuery events into the mix.
 
-{% highlight javascript linenos %}
+```lang=js
 link: function (scope, element, attrs) {
   element.on('comment.refresh', function () {
     scope.refreshComments();
   });
 }
-{% endhighlight %}
+```
 
-{% highlight html linenos %}
+```
 <script>
   $(function () {
     $('#refresh-button').click(function() {
@@ -143,7 +143,7 @@ link: function (scope, element, attrs) {
     });
   })
 </script>
-{% endhighlight %}
+```
 
 I love the simplicity of the solution here. Through jQuery the external script sends an event and it's picked right up by the directive. Very, very slick.
 

@@ -17,7 +17,7 @@ blogger_orig_url: http://www.dinkelburt.com/2013/12/thoughts-on-scna-2013.html
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-  ![scna logo]({{ site.assetsurl }}/img/scna_logo.png)
+    <img src="scna_logo.png" alt="scna logo" />
 </div>
 
 I had the opportunity to go to [SCNA](http://scna.softwarecraftsmanship.org/) this year. It was a lot of fun and represented a lot of firsts for me:
@@ -34,7 +34,7 @@ I thought it would be interesting to put down my thoughts on my experience for a
 ### Overall Themes
 
 <div markdown="1" class="center-image">
-  ![much scna, very shibe, such doge, wow]({{ site.assetsurl }}/img/much_scna.jpg){:width="400px"}
+    <img src="much_scna.jpg" alt="much scna, very shibe, such doge, wow" />
 </div>
 
 #### TDD

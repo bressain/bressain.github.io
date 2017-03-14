@@ -12,13 +12,13 @@ blogger_id: tag:blogger.com,1999:blog-6488571575423175085.post-31506214163687324
 blogger_orig_url: http://www.dinkelburt.com/2014/05/yes-you-belong-here-helping-others-with.html
 permalink: /:year/:month/:title.html
 ---
-This is part three of the series on my talk about impostor syndrome. You can read the first two parts [here]({{ site.baseurl }}{% post_url 2014-04-25-yes-you-belong-here-what-is-impostor %}) and [here]({{ site.baseurl }}{% post_url 2014-05-11-yes-you-belong-here-overcoming-impostor %}).
+This is part three of the series on my talk about impostor syndrome. You can read the first two parts [here](/blog/2014-04-25-yes-you-belong-here-what-is-impostor/) and [here](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/).
 
 <div markdown="1" class="inline-image">
-  ![hand reaching out]({{ site.assetsurl }}/img/hand-reaching-bw.jpg){:height="213px" width="320px"}
+    <img src="hand-reaching-bw.jpg" alt="hand reaching out" style="height:213px;width:320px;" />
 </div>
 
-In [part two]({{ site.baseurl }}{% post_url 2014-05-11-yes-you-belong-here-overcoming-impostor %}) I discussed things that you can do to overcome and manage impostor syndrome. I'm going to wrap things up by discussing things you can do to help others affected by impostor syndrome. Whether you aren't affected by impostor syndrome or have a good handle on it, there are always things you can do to help.<!--more-->
+In [part two](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/) I discussed things that you can do to overcome and manage impostor syndrome. I'm going to wrap things up by discussing things you can do to help others affected by impostor syndrome. Whether you aren't affected by impostor syndrome or have a good handle on it, there are always things you can do to help.<!--more-->
 
 ### Improving Your Impostor Radar
 
@@ -83,5 +83,7 @@ Thanks again for reading. Please comment below if you have any questions or comm
 
 <script async="" class="speakerdeck-embed" data-id="7e2c6cb08eea0131941d3e2d8ace8b00" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-<div markdown="1" class="photo-credit">Photo Credit, David Niblack, [Imagebase.net](http://imagebase.net/Concept/hand-reaching-bw)
+<div markdown="1" class="photo-credit">
+    <span>Photo Credit, David Niblack, </span>
+    <a href="http://imagebase.net/Concept/hand-reaching-bw">Imagebase.net</a>
 </div>

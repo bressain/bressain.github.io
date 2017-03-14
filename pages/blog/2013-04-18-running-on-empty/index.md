@@ -12,7 +12,7 @@ blogger_orig_url: http://www.dinkelburt.com/2013/04/running-on-empty.html
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-  ![empty cup]({{ site.assetsurl }}/img/empty_cup200.jpg)
+  <img src="empty_cup200.jpg" alt="empty cup" />
 </div>
 
 A friend of mine told me about an experience with their child psychologist the other day. It was mostly about dealing with teenager issues but one thing they mentioned that I found interesting was how every child has a sort of ["love cup"](http://www.naturalchild.org/pam_leo/love_cup.html).
@@ -45,5 +45,9 @@ If you find your cup draining faster than it's being filled, let someone that ca
 
 It's an interesting theory and I'm curious as to what others think of it. Does it resonate with you? Am I way off? What fills your cup? What empties it? Let me know in the comments.
 
-<div markdown="1" class="photo-credit">Image © Parrus | [Dreamstime Stock Photos](http://www.dreamstime.com/) & [Stock Free Images](http://www.stockfreeimages.com/)
+<div markdown="1" class="photo-credit">
+    <span>Image © Parrus | </span>
+    <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a>
+    <span> & </span>
+    <a href="http://www.stockfreeimages.com/">Stock Free Images</a>
 </div>

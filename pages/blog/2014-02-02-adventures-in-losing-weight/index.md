@@ -13,7 +13,7 @@ blogger_orig_url: http://www.dinkelburt.com/2014/02/adventures-in-losing-weight.
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-  ![man with some rope]({{ site.assetsurl }}/img/nature_27_.jpg)
+    <img src="nature_27_.jpg" alt="man with some rope" />
 </div>
 
 I know a lot of developers that struggle with obesity and the problems that go with it (I even have a mild case of [peripheral neuropathy](http://www.mayoclinic.org/diseases-conditions/peripheral-neuropathy/basics/definition/con-20019948) to show for mine). **Between sitting at a desk all day at work (sometimes at night as well) and living an American lifestyle, it's easy to gain weight.** Losing weight (or at least talking about it) is a time-honored tradition in my family (blame my mother's side) so it makes sense that I make at least one post about it.<!--more-->
@@ -62,7 +62,7 @@ So now that we know we need to cut down on what we eat, how do we do that? There
 
 I'm currently doing a modified Paleo diet of sorts. I'm losing as fast as I was on Ideal Protein but I don't gain while following it. Some other tips that I found for all diets include:
 
->**Pro-tip #6:**&nbsp;You're not hungry, you're thirsty. Drink lots of fluids so that you know for sure.
+>**Pro-tip #6:** You're not hungry, you're thirsty. Drink lots of fluids so that you know for sure.
 
 >**Pro-tip #7:** Don't stay up late so you don't feel the need for that "4th meal".
 
@@ -93,5 +93,6 @@ I couldn't have gotten this far without the help from my wife and some friends l
 I'm always up for a conversation about weight loss so feel free to comment on the post, send me a tweet or email if you have any questions. Good luck on your own adventure!
 
 <div markdown="1" class="photo-credit">
-  Photo Credit, David Niblack, [Imagebase.net](http://www.imagebase.net/)
+    <span>Photo Credit, David Niblack, </span>
+    <a href="http://www.imagebase.net/">Imagebase.net</a>
 </div>

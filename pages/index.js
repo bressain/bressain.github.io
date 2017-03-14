@@ -5,14 +5,20 @@ import Helmet from "react-helmet"
 import { config } from 'config'
 
 export default class Index extends React.Component {
+  renderPage(page) {
+    return <li><Link to={page.path}>{page.data.title}</Link></li>
+  }
+  renderPages() {
+    return this.props.route.pages.map(this.renderPage)
+  }
   render () {
     return (
       <div>
         <Helmet
           title={config.siteTitle}
           meta={[
-            {"name": "description", "content": "Sample"},
-            {"name": "keywords", "content": "sample, something"},
+            {"name": "description", "content": "Blog and other things from Bressain Dinkelman"},
+            {"name": "keywords", "content": "Bressain,Dinkelman,software development,blog"},
           ]}
         />
         <h1>
@@ -20,6 +26,9 @@ export default class Index extends React.Component {
         </h1>
         <p>Welcome to your new Gatsby site</p>
         <h2>Below are some pages showing different capabilities built-in to Gatsby</h2>
+        <ul>
+        {this.renderPages()}
+        </ul>
         <h3>Supported file types</h3>
         <ul>
           <li>

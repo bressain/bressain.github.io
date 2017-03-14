@@ -7,22 +7,23 @@ import CodePlugin from 'typography-plugin-code'
 const options = {
   googleFonts: [
     {
-      name: 'Montserrat',
+      name: 'Fjalla One',
       styles: [
-        '700',
+        '400',
       ],
     },
     {
-      name: 'Arvo',
+      name: 'Roboto',
       styles: [
         '400',
         '400i',
         '700',
+        '700i'
       ],
     },
   ],
-  headerFontFamily: ['Montserrat', 'sans-serif'],
-  bodyFontFamily: ['Arvo', 'sans-serif'],
+  headerFontFamily: ['Fjalla One', 'sans-serif'],
+  bodyFontFamily: ['Roboto', 'sans-serif'],
   baseFontSize: '18px',
   baseLineHeight: 1.65,
   scale: 2.25,

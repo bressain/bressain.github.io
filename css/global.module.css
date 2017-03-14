@@ -1,0 +1,27 @@
+@import './variables.module.css';
+@import './markdown-styles.module.css';
+@import './atom-one-dark.module.css';
+
+* {
+  color: var(--text-color);
+}
+
+.inline-image {
+  float: left;
+  margin-right: 15px;
+}
+.center-image {
+  text-align: center;
+}
+.captioned-image p:last-of-type {
+  font-size: .9em;
+}
+.photo-credit {
+  font-size: 12px;
+  margin-top: 15px;
+}
+:global {
+  .headroom {
+    background: var(--brand-color-darkest);
+  }
+}

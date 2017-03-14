@@ -17,7 +17,7 @@ One of the things I ran into was putting columns in [jQuery's autocomplete](http
 
 I'd love to show an example of what I'm talking about within this post but Blogger's javascript support is... lacking ([here it is on my Skydrive if you're truly curious or blogger butchers the code in this post](https://onedrive.live.com/redir?resid=661BCFC5E4E81A60!194&authkey=!AHfEn71qEc7_MX0&ithint=file%2chtml)). Since my JavaScript-fu isn't strong, I welcome any comments on doing this better but anyway, here's the code I came up with:
 
-{% highlight javascript linenos %}
+```lang=js
 $(function(){
   var wowStuff = [
     {
@@ -82,38 +82,28 @@ $(function(){
     }
   })
   .data("autocomplete")._renderItem = function(ul, item) {
-    return $("
-<li>
-")
+    return $("<li>")
       .data("item.autocomplete", item)
-      .append("<a><div style='width:300px;'>
-<div style='width:100px; float:left;'>
-" + item.race + "&nbsp;</div>
-<div style='width:100px; float:left;'>
-" + item.wowClass + "&nbsp;</div>
-<div>
-(" + item.faction + ")</div>
-</div>
-</a>")
+      .append("<a><div style='width:300px;'><div style='width:100px; float:left;'>" + item.race + "&nbsp;</div><div style='width:100px; float:left;'>" + item.wowClass + "&nbsp;</div><div>(" + item.faction + ")</div></div></a>")
       .appendTo(ul);
     };
   });
-{% endhighlight %}
+```
 
 With the associated html:
 
-{% highlight html linenos %}
+```lang=html
 <div>
   <label for="avatar">WoW type</label>
   <input id="avatar" />&nbsp;
   <span id="faction"></span>
   <input id="avatar-id" type="hidden" />
 </div>
-{% endhighlight %}
+```
 
 It's assumed that the jquery, jquery ui and jquery ui css files are pulled in on the page.
 
-The key to getting the columns to work lies in the _renderItem method override. The autocomplete is going to give you an unordered list tag and an item from the source. What you want to return is the unordered list with whatever list items to add added on.
+The key to getting the columns to work lies in the `_renderItem` method override. The autocomplete is going to give you an unordered list tag and an item from the source. What you want to return is the unordered list with whatever list items to add added on.
 
 The pitfalls I ran into were how the items should be formatted:
 

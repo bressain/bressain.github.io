@@ -42,7 +42,7 @@ Though it's not required, **it's extremely helpful to know some of the newer con
 
 #### Know The Movers & Shakers
 
-Another optional thing to look into, but very valuable nonetheless, is to know the important people in your industry. And not only know who they are, find out what they're working on next. This can be as simple as following a blog or a Twitter account. Some of my favorites include [Scott Hanselman](http://www.hanselman.com/blog/), [Oren Eini](http://ayende.com/Blog/default.aspx) and [Uncle Bob](http://twitter.com/unclebobmartin) ([there are a ton more]({{ site.baseurl }}{% post_url 2010-11-17-shared-stuff %})).
+Another optional thing to look into, but very valuable nonetheless, is to know the important people in your industry. And not only know who they are, find out what they're working on next. This can be as simple as following a blog or a Twitter account. Some of my favorites include [Scott Hanselman](http://www.hanselman.com/blog/), [Oren Eini](http://ayende.com/Blog/default.aspx) and [Uncle Bob](http://twitter.com/unclebobmartin) ([there are a ton more](/blog/2010-11-17-shared-stuff/)).
 
 ### The Interview
 
