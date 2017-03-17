@@ -1,8 +1,6 @@
 @import './variables.module.css';
-@import './markdown-styles.module.css';
-@import './atom-one-dark.module.css';
 
-* {
+div, p {
   color: var(--text-color);
 }
 

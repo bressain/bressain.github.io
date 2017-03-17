@@ -3,7 +3,10 @@ import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
+
 import '../css/global.module.css'
+import '../css/markdown-styles.css'
+import '../css/atom-one-dark.css'
 
 import { rhythm } from '../utils/typography'
 

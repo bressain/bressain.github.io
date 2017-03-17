@@ -20,7 +20,7 @@ const options = {
         '700',
         '700i'
       ],
-    },
+    }
   ],
   headerFontFamily: ['Fjalla One', 'sans-serif'],
   bodyFontFamily: ['Roboto', 'sans-serif'],
