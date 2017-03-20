@@ -18,8 +18,3 @@ div, p {
   font-size: 12px;
   margin-top: 15px;
 }
-:global {
-  .headroom {
-    background: var(--brand-color-darkest);
-  }
-}

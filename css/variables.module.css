@@ -1,5 +1,8 @@
 :root {
   --text-color: hsla(0,0%,0%,0.8);
+  --base-font-size: 18px;
+  --base-line-height: 1.65rem;
+
   --brand-color-lightest: #8CDC8C;
   --brand-color-lighter: #5CC45C;
   --brand-color: #39A939;

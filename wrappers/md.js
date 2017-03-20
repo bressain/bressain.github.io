@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from "react-helmet"
 import { config } from 'config'
 
-import '../css/global.module.css'
+import '../css/global.css'
 import '../css/markdown-styles.css'
 import '../css/atom-one-dark.css'
 

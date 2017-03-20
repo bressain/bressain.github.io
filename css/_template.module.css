@@ -1,0 +1,25 @@
+@import './variables.module.css';
+
+.base {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--base-line-height) calc(var(--base-line-height) * .75);
+}
+
+.headerWrapper {
+  background-color: var(--brand-color);
+  margin-bottom: var(--base-line-height);
+}
+.header {
+  composes: base;
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.main {
+  composes: base;
+  padding-top: 0;
+}

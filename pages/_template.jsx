@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-import Headroom from 'react-headroom'
 
-import '../css/global.module.css'
+import '../css/global.css'
 import '../css/markdown-styles.css'
 import '../css/atom-one-dark.css'
+
+import css from '../css/_template.module.css'
 
 import { rhythm } from '../utils/typography'
 
@@ -19,22 +19,14 @@ module.exports = React.createClass({
   render () {
     return (
       <div>
-        <Headroom
-          style={{ background: '#0A730A' }}
-          wrapperStyle={{ marginBottom: rhythm(1) }}>
-          <Container
-            style={{ maxWidth: 960, paddingTop: 0, padding: `${rhythm(1)} ${rhythm(3/4)}` }}>
-            <Link
-              style={{ color: 'black', textDecoration: 'none' }}
-              to={prefixLink('/')}>
-              Gatsby!!!
-            </Link>
-          </Container>
-        </Headroom>
-        <Container
-          style={{ maxWidth: 960, padding: `${rhythm(1)} ${rhythm(3/4)}`, paddingTop: 0 }}>
+        <div className={css.headerWrapper}>
+          <div className={css.header}>
+            <Link to={prefixLink('/')}>Bressain.com</Link>
+          </div>
+        </div>
+        <div className={css.main}>
           {this.props.children}
-        </Container>
+        </div>
       </div>
     )
   }
