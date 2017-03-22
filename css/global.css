@@ -3,6 +3,21 @@
 div, p {
   color: var(--text-color);
 }
+a {
+  text-decoration: none;
+  color: var(--brand-color);
+
+  &:hover {
+    color: var(--brand-color-lighter);
+    text-decoration: underline;
+  }
+  &:active {
+    color: var(--brand-color-lightest);
+  }
+  &:visited {
+    color: var(--brand-color-darkest);
+  }
+}
 
 .inline-image {
   float: left;

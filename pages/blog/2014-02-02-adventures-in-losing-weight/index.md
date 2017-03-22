@@ -23,11 +23,13 @@ In my annual physical about 3 years ago (they're free for any insurance, you sho
 After educating myself a bit and finding diets that work for me, **I've managed to get down to about 265 and have kept it there for over a year**. I'm eating mostly normal now and plan on losing more once summer rolls around (something about winter just kills my motivation).
 
 <div markdown="1" style="color: red;">
-**A disclaimer before I get into what I did:**
+
+<strong style="color: red;">A disclaimer before I get into what I did:</strong>
 
 * **I'm a software developer, not a dietitian. This is just advice from some guy.**
 * **This is what worked for me. Everyone is different when it comes to diets.**
 * **Talk to a doctor to before you start any diets or extreme exercise routines.**
+
 </div>
 
 The best diet is the one you can stay on. There are however, some constants out there that you can't ignore and are important to understand.

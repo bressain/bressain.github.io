@@ -1,0 +1,56 @@
+@import '../../../css/variables.module.css';
+
+.container {
+  composes: container from '../index.module.css';
+  padding-top: 0;
+}
+.titleContainer {
+  margin-bottom: var(--base-line-height);
+}
+.title {
+  margin-bottom: calc(var(--base-line-height) / 4);
+}
+.date {
+  composes: sub-text from '../index.module.css';
+}
+.nav {
+  composes: container;
+  display: flex;
+  justify-content: space-between;
+}
+.prev {
+  margin-left: 0.45em;
+  margin-right: auto;
+}
+.prev:before {
+  border-style: solid;
+  border-width: 0.2em 0.2em 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.45em;
+  position: relative;
+  top: 0.55em;
+  vertical-align: top;
+  width: 0.45em;
+
+  left: -0.45em;
+  transform: rotate(-135deg);
+}
+.next {
+  margin-right: 0.45em;
+  margin-left: auto;
+}
+.next:after {
+  border-style: solid;
+  border-width: 0.2em 0.2em 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.45em;
+  position: relative;
+  top: 0.55em;
+  vertical-align: top;
+  width: 0.45em;
+
+  left: 0.45em;
+  transform: rotate(45deg);
+}

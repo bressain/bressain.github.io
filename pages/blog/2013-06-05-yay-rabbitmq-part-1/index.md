@@ -54,7 +54,7 @@ When you first connect an email client to an email account, everything comes thr
 
 <div markdown="1" class="center-image captioned-image">
     <img src="cluster.png" alt="RabbitMQ cluster diagram" />
-    One exchange and two queues with different routing keys.
+    <p>One exchange and two queues with different routing keys.</p>
 </div>
 
 So here's what I've covered conceptually in the image above. The `my.queue` queue is pulling messages from the `my.exchange` exchange that have a routing key of `my.key`. The `my.other.queue` queue is pulling messages from the same exchange, but only messages with a `my.other.key` routing key.

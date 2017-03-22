@@ -2,26 +2,21 @@ import React from 'react'
 import Helmet from "react-helmet"
 import { config } from 'config'
 
-import '../css/global.css'
-import '../css/markdown-styles.css'
-import '../css/atom-one-dark.css'
+import BlogPost from './components/blog-post'
+import Page from './components/page'
 
-module.exports = React.createClass({
-  propTypes () {
-    return {
-      router: React.PropTypes.object,
-    }
-  },
-  render () {
-    const post = this.props.route.page.data
-    return (
-      <div className="markdown">
-        <Helmet
-          title={`${config.siteTitle} | ${post.title}`}
-        />
-        <h1>{post.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.body }} />
-      </div>
-    )
-  },
-})
+export default function Md (props) {
+  const post = props.route.page.data
+
+  return (
+    <div className="markdown">
+      <Helmet
+        title={`${config.siteTitle} | ${post.title}`}
+      />
+      {post.layout === 'post' ? <BlogPost route={props.route} /> : <Page route={props.route} />}
+    </div>
+  )
+}
+Md.propTypes = {
+  router: React.PropTypes.object
+}

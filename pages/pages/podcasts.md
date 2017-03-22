@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Podcasts Wot I Listen To
+modified_time: '2015-06-13T00:00:00.000-06:00'
 permalink: /podcasts/
 ---
 Here are the podcasts that I listen to regularly.
@@ -35,5 +36,3 @@ Here are the podcasts that I listen to regularly.
   * Motivational podcast with some Christian overtones. The focus is more for management types but is applicable for anyone trying to better themselves professionally as well as personally. One warning is the theme song stays with you all day for better or for worse.
 * [The Art of Manliness](http://www.artofmanliness.com)
   * Was already a fan of the website so when I found that they had a podcast as well, I had to subscribe. Lots of thought-provoking subjects on how to be a better man or why men are the way they are.
-
-Last updated Jun 13 2015
