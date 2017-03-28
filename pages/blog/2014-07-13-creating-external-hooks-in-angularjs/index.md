@@ -21,7 +21,8 @@ I ran into an interesting problem a few weeks ago at work. I was working on a st
 * Allow external widgets/things tell the directive to update its comment count from the service.
   * **The external "thing" may or may not be an "Angular thing".**
 
-Since the widget would usually be in an Angular app, making an Angular directive seemed like the thing to do. The directive would also be offered as a self-bootstrapping chunk of javascript for pages that weren't using Angular but that's beyond the scope of this post.<!--more-->
+Since the widget would usually be in an Angular app, making an Angular directive seemed like the thing to do. The directive would also be offered as a self-bootstrapping chunk of javascript for pages that weren't using Angular but that's beyond the scope of this post.
+<!--more-->
 
 Making the widget itself wasn't too bad but making those external hooks was a bear (for me anyway). The code is a little stripped down for public consumption but here's basically what I started with:
 

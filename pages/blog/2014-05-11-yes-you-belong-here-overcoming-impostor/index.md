@@ -15,10 +15,11 @@ permalink: /:year/:month/:title.html
 This is part two of the series on my talk about impostor syndrome. You can read the first part [here](/blog/2014-04-25-yes-you-belong-here-what-is-impostor/).
 
 <div markdown="1" class="inline-image">
-    <img src="2895379972_65e3f11fd4_m.jpg" alt="man sinking in leaves" />
+    <img src="/blog/images/2895379972_65e3f11fd4_m.jpg" alt="man sinking in leaves" />
 </div>
 
-In [part one](/blog/2014-04-25-yes-you-belong-here-what-is-impostor/), I discussed what impostor syndrome was and the effects of it. Hopefully you don't feel limited by the effects of impostor syndrome but if you do, I hope this post can start you on a path that leads you to managing it so that you can succeed.<!--more-->
+In [part one](/blog/2014-04-25-yes-you-belong-here-what-is-impostor/), I discussed what impostor syndrome was and the effects of it. Hopefully you don't feel limited by the effects of impostor syndrome but if you do, I hope this post can start you on a path that leads you to managing it so that you can succeed.
+<!--more-->
 
 ### First Step, Education
 

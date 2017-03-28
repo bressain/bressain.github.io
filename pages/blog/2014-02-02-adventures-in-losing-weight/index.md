@@ -13,10 +13,11 @@ blogger_orig_url: http://www.dinkelburt.com/2014/02/adventures-in-losing-weight.
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-    <img src="nature_27_.jpg" alt="man with some rope" />
+    <img src="/blog/images/nature_27_.jpg" alt="man with some rope" />
 </div>
 
-I know a lot of developers that struggle with obesity and the problems that go with it (I even have a mild case of [peripheral neuropathy](http://www.mayoclinic.org/diseases-conditions/peripheral-neuropathy/basics/definition/con-20019948) to show for mine). **Between sitting at a desk all day at work (sometimes at night as well) and living an American lifestyle, it's easy to gain weight.** Losing weight (or at least talking about it) is a time-honored tradition in my family (blame my mother's side) so it makes sense that I make at least one post about it.<!--more-->
+I know a lot of developers that struggle with obesity and the problems that go with it (I even have a mild case of [peripheral neuropathy](http://www.mayoclinic.org/diseases-conditions/peripheral-neuropathy/basics/definition/con-20019948) to show for mine). **Between sitting at a desk all day at work (sometimes at night as well) and living an American lifestyle, it's easy to gain weight.** Losing weight (or at least talking about it) is a time-honored tradition in my family (blame my mother's side) so it makes sense that I make at least one post about it.
+<!--more-->
 
 In my annual physical about 3 years ago (they're free for any insurance, you should go), I noticed that the scales had me at 330 lbs. I couldn't believe that I had gotten that big. I have always been big but this was just nuts. **I would get winded playing with my kids or going up several stairs and it bothered me.** I don't need to be super fit but I need to be able to function in life at a level I feel is normal.
 

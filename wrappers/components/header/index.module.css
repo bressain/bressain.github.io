@@ -5,7 +5,7 @@
   margin-bottom: var(--base-line-height);
 }
 .header {
-  composes: container from '../index.module.css';
+  composes: container from '../../../css/common.module.css';
 
   & a {
     color: #fff;

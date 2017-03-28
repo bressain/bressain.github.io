@@ -17,7 +17,7 @@ blogger_orig_url: http://www.dinkelburt.com/2013/12/thoughts-on-scna-2013.html
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-    <img src="scna_logo.png" alt="scna logo" />
+    <img src="/blog/images/scna_logo.png" alt="scna logo" />
 </div>
 
 I had the opportunity to go to [SCNA](http://scna.softwarecraftsmanship.org/) this year. It was a lot of fun and represented a lot of firsts for me:
@@ -29,12 +29,13 @@ I had the opportunity to go to [SCNA](http://scna.softwarecraftsmanship.org/) th
 
 I tend to lean towards introversion so conferences can be a bit draining for me but I'm glad I went. I was pulled completely out of my comfort zone which forces me to grow which is one tenant of software craftsmanship that I like.
 
-I thought it would be interesting to put down my thoughts on my experience for anyone interested or at least so that I can reflect on them later.<!--more-->
+I thought it would be interesting to put down my thoughts on my experience for anyone interested or at least so that I can reflect on them later.
+<!--more-->
 
 ### Overall Themes
 
 <div markdown="1" class="center-image">
-    <img src="much_scna.jpg" alt="much scna, very shibe, such doge, wow" />
+    <img src="/blog/images/much_scna.jpg" alt="much scna, very shibe, such doge, wow" />
 </div>
 
 #### TDD

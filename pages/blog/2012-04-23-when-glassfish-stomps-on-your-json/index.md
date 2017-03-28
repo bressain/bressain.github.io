@@ -14,7 +14,8 @@ blogger_id: tag:blogger.com,1999:blog-6488571575423175085.post-53665825991958181
 blogger_orig_url: http://www.dinkelburt.com/2012/04/when-glassfish-stomps-on-your-json.html
 permalink: /:year/:month/:title.html
 ---
-Funny thing about learning new technologies and stacks, you run into all kinds of hard to diagnose problems. Here's one that I ran into that took a few days to figure out.<!--more-->
+Funny thing about learning new technologies and stacks, you run into all kinds of hard to diagnose problems. Here's one that I ran into that took a few days to figure out.
+<!--more-->
 
 ### The Problem
 

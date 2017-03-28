@@ -11,4 +11,5 @@ permalink: /:year/:month/:title.html
 ---
 I'm still alive! Had a bunch happen in the last month or two so I've been a bit busy. I have a longer post coming up that I'm still working on so here's a little something in the meantime.
 
-I like reading blogs. But I also like to read blogs socially. How is that done? By sharing what you read and commenting on them! [Here is a feed](http://www.google.com/reader/shared/dinkelburt) of the stuff I've shared out in case anyone is interested. It's mostly developer-like stuff but it has a healthy dose of random stuff I just found to be funny or insightful.<!--more-->
+I like reading blogs. But I also like to read blogs socially. How is that done? By sharing what you read and commenting on them! [Here is a feed](http://www.google.com/reader/shared/dinkelburt) of the stuff I've shared out in case anyone is interested. It's mostly developer-like stuff but it has a healthy dose of random stuff I just found to be funny or insightful.
+<!--more-->

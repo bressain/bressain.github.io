@@ -13,10 +13,11 @@ blogger_orig_url: http://www.dinkelburt.com/2013/03/maximize-your-commute-with-p
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-  <img src="CarCast.png" alt="CarCast logo" />
+  <img src="/blog/images/CarCast.png" alt="CarCast logo" />
 </div>
 
-I have a commute. It's not a long commute, but long enough (20 minutes-ish). Although I enjoy listening to music while driving, **I've found that my time is better spent listening to something educational or interesting through podcasts.**<!--more-->
+I have a commute. It's not a long commute, but long enough (20 minutes-ish). Although I enjoy listening to music while driving, **I've found that my time is better spent listening to something educational or interesting through podcasts.**
+<!--more-->
 
 ### How Do I Listen To Podcasts?
 

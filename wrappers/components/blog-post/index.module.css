@@ -1,7 +1,7 @@
 @import '../../../css/variables.module.css';
 
 .container {
-  composes: container from '../index.module.css';
+  composes: container from '../../../css/common.module.css';
   padding-top: 0;
 }
 .titleContainer {
@@ -11,7 +11,7 @@
   margin-bottom: calc(var(--base-line-height) / 4);
 }
 .date {
-  composes: sub-text from '../index.module.css';
+  composes: sub-text from '../../../css/common.module.css';
 }
 .nav {
   composes: container;

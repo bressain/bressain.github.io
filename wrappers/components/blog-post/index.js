@@ -4,6 +4,7 @@ import { Link } from 'react-router'
 const { arrayOf, object, shape, string } = React.PropTypes
 
 import css from './index.module.css'
+import Footer from '../../../components/footer'
 import Header from '../header'
 import * as pathUtil from '../../../utils/pathUtil'
 import * as textUtil from '../../../utils/textUtil'
@@ -43,6 +44,7 @@ export default function BlogPost (props) {
         {renderPrevLink(prevNext.prev)}
         {renderNextLink(prevNext.next)}
       </nav>
+      <Footer />
     </div>
   )
 }

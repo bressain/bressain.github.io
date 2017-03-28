@@ -15,7 +15,8 @@ permalink: /:year/:month/:title.html
 
 This line came from a job posting I saw the other day which made me chuckle a little. At first I was a little shocked to see that a company almost <i>requires</i> overtime (I'm assuming it's not an hourly paid job) but then I thought, at least they're being honest.
 
-So why would that be so shocking? Well, where I'm currently working we're trying to be [agile](http://en.wikipedia.org/wiki/Agile_software_development) (well, most of us anyway) using a combination of Scrum & XP and one of the practices we've tried to follow is [sustainable pace](http://en.wikipedia.org/wiki/Extreme_programming_practices#Sustainable_pace).<!--more-->
+So why would that be so shocking? Well, where I'm currently working we're trying to be [agile](http://en.wikipedia.org/wiki/Agile_software_development) (well, most of us anyway) using a combination of Scrum & XP and one of the practices we've tried to follow is [sustainable pace](http://en.wikipedia.org/wiki/Extreme_programming_practices#Sustainable_pace).
+<!--more-->
 
 In a nutshell, sustainable pace is finding the right amount of hours people should work without ever burning out. This provides, amongst others, a few benefits such as:
 

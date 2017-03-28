@@ -15,10 +15,11 @@ permalink: /:year/:month/:title.html
 This is part three of the series on my talk about impostor syndrome. You can read the first two parts [here](/blog/2014-04-25-yes-you-belong-here-what-is-impostor/) and [here](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/).
 
 <div markdown="1" class="inline-image">
-    <img src="hand-reaching-bw.jpg" alt="hand reaching out" style="height:213px;width:320px;" />
+    <img src="/blog/images/hand-reaching-bw.jpg" alt="hand reaching out" style="height:213px;width:320px;" />
 </div>
 
-In [part two](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/) I discussed things that you can do to overcome and manage impostor syndrome. I'm going to wrap things up by discussing things you can do to help others affected by impostor syndrome. Whether you aren't affected by impostor syndrome or have a good handle on it, there are always things you can do to help.<!--more-->
+In [part two](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/) I discussed things that you can do to overcome and manage impostor syndrome. I'm going to wrap things up by discussing things you can do to help others affected by impostor syndrome. Whether you aren't affected by impostor syndrome or have a good handle on it, there are always things you can do to help.
+<!--more-->
 
 ### Improving Your Impostor Radar
 

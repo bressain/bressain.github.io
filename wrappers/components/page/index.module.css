@@ -1,7 +1,7 @@
 .container {
-  composes: container from '../index.module.css';
+  composes: container from '../../../css/common.module.css';
   padding-top: 0;
 }
 .updated {
-  composes: sub-text from '../index.module.css';
+  composes: sub-text from '../../../css/common.module.css';
 }

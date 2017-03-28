@@ -12,7 +12,7 @@ blogger_orig_url: http://www.dinkelburt.com/2013/04/running-on-empty.html
 permalink: /:year/:month/:title.html
 ---
 <div markdown="1" class="inline-image">
-  <img src="empty_cup200.jpg" alt="empty cup" />
+  <img src="/blog/images/empty_cup200.jpg" alt="empty cup" />
 </div>
 
 A friend of mine told me about an experience with their child psychologist the other day. It was mostly about dealing with teenager issues but one thing they mentioned that I found interesting was how every child has a sort of ["love cup"](http://www.naturalchild.org/pam_leo/love_cup.html).
@@ -21,7 +21,8 @@ The idea is that **every time the parent plays with, compliments or encourages t
 
 It's an interesting theory which I've found to be true not only with observing children of friends and family but my own children as well. With every drop added, the more I see children respond positively to their parents as well as being happier overall.
 
-Hearing about this idea of a "love cup" made me think about how I should spend more time with my children but it also made me think of **how applicable this is at work**. I would still consider it a "love cup" at work (because you love your job right?) but it probably sounds better as a "trust" or "satisfaction"cup.<!--more-->
+Hearing about this idea of a "love cup" made me think about how I should spend more time with my children but it also made me think of **how applicable this is at work**. I would still consider it a "love cup" at work (because you love your job right?) but it probably sounds better as a "trust" or "satisfaction"cup.
+<!--more-->
 
 ### Satisfaction Cup
 

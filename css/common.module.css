@@ -1,4 +1,4 @@
-@import '../../css/variables.module.css';
+@import './variables.module.css';
 
 .container {
   max-width: 960px;

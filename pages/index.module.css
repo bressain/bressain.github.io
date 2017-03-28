@@ -1,0 +1,40 @@
+@import '../css/variables.module.css';
+
+.container {
+  composes: container from '../css/common.module.css';
+}
+.header-container {
+  background-color: var(--brand-color);
+}
+.header {
+  composes: container from '../css/common.module.css';
+  padding-top: calc(var(--base-line-height) * 4);
+  padding-bottom: calc(var(--base-line-height) * 4);
+  text-align: center;
+}
+.title {
+  font-family: Roboto,sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  margin-bottom: 0;
+
+  & a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.posts {
+  margin-left: 0;
+}
+.post {
+  list-style: none;
+}
+.post-preview {
+  display: inline-block;
+}
+.read-more {
+  clear: both;
+  position: relative;
+  top: calc(var(--base-line-height) * -1);
+  text-align: right;
+}

@@ -10,7 +10,8 @@ blogger_id: tag:blogger.com,1999:blog-6488571575423175085.post-64571371891200402
 blogger_orig_url: http://www.dinkelburt.com/2013/06/dont-ask-tell.html
 permalink: /:year/:month/:title.html
 ---
-I just read Michael Feathers' post [Avoid Null Checks by Replacing Finders with Tellers](http://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html) and it really made me think about how I write code.<!--more-->
+I just read Michael Feathers' post [Avoid Null Checks by Replacing Finders with Tellers](http://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html) and it really made me think about how I write code.
+<!--more-->
 
 ### Nulls Be Ugly
 

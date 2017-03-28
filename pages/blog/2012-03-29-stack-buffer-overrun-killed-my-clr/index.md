@@ -11,7 +11,8 @@ blogger_id: tag:blogger.com,1999:blog-6488571575423175085.post-57879341041098381
 blogger_orig_url: http://www.dinkelburt.com/2012/03/stack-buffer-overrun-killed-my-clr.html
 permalink: /:year/:month/:title.html
 ---
-So I ran into an interesting problem the last few days. And by ran into I mean made me lose more hair than I have already lost! It took quite a bit of research and I thought I'd help the Internet by sharing what I ran into.<!--more-->
+So I ran into an interesting problem the last few days. And by ran into I mean made me lose more hair than I have already lost! It took quite a bit of research and I thought I'd help the Internet by sharing what I ran into.
+<!--more-->
 
 ### The Problem
 

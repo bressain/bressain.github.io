@@ -13,7 +13,8 @@ permalink: /:year/:month/:title.html
 ---
 My current job has shifted dramatically from doing Windows application development to web development (and then back again, and then back to web, etc.). With that change has come a crash course in JavaScript & jQuery programming.
 
-One of the things I ran into was putting columns in [jQuery's autocomplete](http://jqueryui.com/demos/autocomplete/). I found a [pretty good answer on StackOverflow](http://stackoverflow.com/questions/2744747/quick-example-of-multi-column-results-with-jqueryuis-new-autocomplete) but I wanted to avoid using tables if I could. After some experimentation and a little more research I found an implementation that works.<!--more-->
+One of the things I ran into was putting columns in [jQuery's autocomplete](http://jqueryui.com/demos/autocomplete/). I found a [pretty good answer on StackOverflow](http://stackoverflow.com/questions/2744747/quick-example-of-multi-column-results-with-jqueryuis-new-autocomplete) but I wanted to avoid using tables if I could. After some experimentation and a little more research I found an implementation that works.
+<!--more-->
 
 I'd love to show an example of what I'm talking about within this post but Blogger's javascript support is... lacking ([here it is on my Skydrive if you're truly curious or blogger butchers the code in this post](https://onedrive.live.com/redir?resid=661BCFC5E4E81A60!194&authkey=!AHfEn71qEc7_MX0&ithint=file%2chtml)). Since my JavaScript-fu isn't strong, I welcome any comments on doing this better but anyway, here's the code I came up with:
 

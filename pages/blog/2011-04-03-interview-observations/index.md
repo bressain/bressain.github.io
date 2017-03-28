@@ -19,7 +19,8 @@ There have been some big events that have happened recently that have affected m
 
 I could talk for ages about items one & two but this is a programming blog so I better talk about number three.
 
-Looking for work was an interesting journey because I went from participating in & conducting interviews to being the one interviewed (and then back again to participating in interviews). From all these experiences I have learned a few things that I wanted to share with others that may be looking for development work.<!--more-->
+Looking for work was an interesting journey because I went from participating in & conducting interviews to being the one interviewed (and then back again to participating in interviews). From all these experiences I have learned a few things that I wanted to share with others that may be looking for development work.
+<!--more-->
 
 ### Preparation
 

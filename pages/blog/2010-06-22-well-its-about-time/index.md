@@ -19,4 +19,5 @@ Some goals I want to achieve with this blog are:
 * Share insights into things I experience in developing software.
 * Inevitable ranting.
 
-I hope something I write ends up being interesting to read as I do enjoy writing more than I care to admit. Programming daily has tried its hardest to kill off that side of my brain but it's not all dead yet. Anyway, welcome to dinkelburt and I hope you enjoy your stay.<!--more-->
+I hope something I write ends up being interesting to read as I do enjoy writing more than I care to admit. Programming daily has tried its hardest to kill off that side of my brain but it's not all dead yet. Anyway, welcome to dinkelburt and I hope you enjoy your stay.
+<!--more-->

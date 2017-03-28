@@ -4,12 +4,28 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from "react-helmet"
 import { config } from 'config'
 
+import css from './index.module.css'
+import Footer from '../components/footer'
+import * as pathUtil from '../utils/pathUtil'
+import * as textUtil from '../utils/textUtil'
+
 export default class Index extends React.Component {
   renderPage(page) {
-    return <li><Link to={page.path}>{page.data.title}</Link></li>
+    return (
+      <li key={page.data.title} className={css.post}>
+        <h2><Link to={page.path}>{page.data.title}</Link></h2>
+        <div className={css['post-preview']} dangerouslySetInnerHTML={{ __html: textUtil.chopToBreak(page.data.body) }}/>
+        <div className={css['read-more']}><Link to={page.path}>Read more >></Link></div>
+      </li>
+    )
   }
   renderPages() {
-    return this.props.route.pages.map(this.renderPage)
+    const pages = pathUtil.getAllBlogPosts(this.props.route.pages).reverse().slice(0, 5)
+    return (
+      <ul className={css.posts}>
+        {pages.map(this.renderPage)}
+      </ul>
+    )
   }
   render () {
     return (
@@ -21,38 +37,15 @@ export default class Index extends React.Component {
             {"name": "keywords", "content": "Bressain,Dinkelman,software development,blog"},
           ]}
         />
-        <h1>
-          Hi people
-        </h1>
-        <p>Welcome to your new Gatsby site</p>
-        <h2>Below are some pages showing different capabilities built-in to Gatsby</h2>
-        <ul>
-        {this.renderPages()}
-        </ul>
-        <h3>Supported file types</h3>
-        <ul>
-          <li>
-            <Link to={prefixLink('/markdown/')}>Markdown</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/react/')}>JSX (React components)</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/html/')}>HTML</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/json/')}>JSON</Link>
-          </li>
-        </ul>
-        <h3>Supported CSS processors</h3>
-        <ul>
-          <li>
-            <Link to={prefixLink('/postcss/')}>PostCSS</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/css-modules/')}>CSS Modules</Link>
-          </li>
-        </ul>
+        <header className={css['header-container']}>
+          <hgroup className={css.header}>
+            <h1 className={css.title}><Link to={prefixLink('/pages/about/')}>Bressain Dinkelman</Link></h1>
+          </hgroup>
+        </header>
+        <section className={css.container}>
+          {this.renderPages()}
+        </section>
+        <Footer />
       </div>
     )
   }

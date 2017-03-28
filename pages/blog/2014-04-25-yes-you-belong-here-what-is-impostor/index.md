@@ -15,12 +15,13 @@ permalink: /:year/:month/:title.html
 This is part one of the series on my talk about impostor syndrome. You can read the second part [here](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/).
 
 <div markdown="1" class="inline-image">
-    <img src="Imposter.jpg" alt="three cats one dog all fluff" style="height:194px;width:320px;" />
+    <img src="/blog/images/Imposter.jpg" alt="three cats one dog all fluff" style="height:194px;width:320px;" />
 </div>
 
 This past month I spoke at the 2014 Spring Utah Code Camp. I don't speak at conferences generally (2nd time speaking at a conference) but was convinced by some friends that I should speak about something. I only like to speak about subjects that I know quite a bit about and since I've been fighting a mild case of impostor syndrome on and off for the past year or so, it felt like a good fit.
 
-My slide deck is fairly minimal and the talk wasn't filmed so this is part of a series of posts that go with the talk for those that are interested.<!--more-->
+My slide deck is fairly minimal and the talk wasn't filmed so this is part of a series of posts that go with the talk for those that are interested.
+<!--more-->
 
 ### Do You Feel Like An Impostor?
 
@@ -48,7 +49,7 @@ The thing is, us developers are *so* susceptible to impostor syndrome. In fact, 
 
 * "...looking for a JavaScript and jQuery **guru**..."
 * "Come work with a team of **AlphaGeeks**, Git **Ninjas**, and Linux **Jedis**!"
-* "Startup **Superhero**/**Ninja **Internship"
+* "Startup **Superhero**/**Ninja** Internship"
 * "We are looking for a **rockstar** front-end developer to join our team."
 
 Not all postings look like that but we sometimes have a hard time passing up the chance to be called a guru or ninja at work (hell, I want to be a superhero; Sr. Software Engineer just doesn't have the same ring to it).
