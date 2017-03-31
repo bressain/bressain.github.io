@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
 import Helmet from "react-helmet"
 import { config } from 'config'
 
@@ -39,7 +38,7 @@ export default class Index extends React.Component {
         />
         <header className={css['header-container']}>
           <hgroup className={css.header}>
-            <h1 className={css.title}><Link to={prefixLink('/pages/about/')}>Bressain Dinkelman</Link></h1>
+            <h1 className={css.title}><Link to={'/pages/about/'}>Bressain Dinkelman</Link></h1>
           </hgroup>
         </header>
         <section className={css.container}>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
 
 import css from './index.module.css'
 import GithubIcon from '../images/github'
@@ -12,7 +11,7 @@ export default function () {
     <footer className={css.container}>
       <div className={css.footer}>
         <div className={css.icons}>
-          <Link to={prefixLink('/pages/about/')}>
+          <Link to={'/pages/about/'}>
             <img className={css.avatar} src="https://www.gravatar.com/avatar/cd238df2a13bd0593a5be2ad19834c01?s=60" alt="about me" />
           </Link>
           <a href="https://twitter.com/bressain">
