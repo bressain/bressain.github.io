@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://bressain.com</id>
+    <title>Bressain</title>
+    <updated>2017-03-31T04:02:37Z</updated>
+    <author>
+        <name>Bressain Dinkelman</name>
+        <email>dinkelburt@gmail.com</email>
+        <uri>http://bressain.com</uri>
+    </author>
+    <link rel="alternate" href="http://bressain.com"/>
+    <subtitle>A software development blog by Bressain Dinkelman</subtitle>
+    <rights>All rights reserved 2016, Bressain Dinkelman</rights>
+    <generator>Feed for Node.js</generator>
+    <contributor>
+        <name>Bressain Dinkelman</name>
+        <email>dinkelburt@gmail.com</email>
+    </contributor>
+    <entry>
+        <title type="html"><![CDATA[Collaboration and Creativity]]></title>
+        <id>http://bressain.com/blog/2015-06-26-collaboration-and-creativity/</id>
+        <link href="http://bressain.com/blog/2015-06-26-collaboration-and-creativity/">
+        </link>
+        <updated>2015-07-27T01:35:00Z</updated>
+        <content type="html"><![CDATA[<p>I heard something interesting in an audiobook I was listening to the other day that gave me pause. It was in regards to how creativity can be stifled in group settings. Here was the scenario (paraphrased):</p>
+<blockquote>
+<p>Let’s say you have several people in a room with a task of coming up with some creative idea. Some are considered fairly creative but are also quiet. The others aren’t that creative but are fairly loud and assertive. Chances are, the ideas that will come out of the group will be the less creative ideas from the more loud and assertive members of the group.</p>
+</blockquote>
+<p>There are many factors that can sway the result (e.g. not all quiet people are pushovers, not all loud people try to bulldoze others, etc) but having experienced both sides of this coin, I think the general case remains likely.</p>
+<p>That said, <strong>neither I or the book are advocating to never collaborate at work</strong>. I think there is strength in both approaches. While I like the idea of going off by myself to be creative or learn something, I know that by testing the resulting ideas against a group setting, I can get those ideas validated and possibly enhanced.</p>
+<p>Really it comes down to: <strong>Like most things in life, if you do too much of one thing, you’re probably going to get suboptimal results</strong>.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating External Hooks In AngularJS Directives]]></title>
+        <id>http://bressain.com/blog/2014-07-13-creating-external-hooks-in-angularjs/</id>
+        <link href="http://bressain.com/blog/2014-07-13-creating-external-hooks-in-angularjs/">
+        </link>
+        <updated>2014-07-13T22:02:00Z</updated>
+        <content type="html"><![CDATA[<p>I ran into an interesting problem a few weeks ago at work. I was working on a stand-alone widget/directive that had the following requirements:</p>
+<ul>
+<li>Create a widget that shows the amount of comments for a given resource.</li>
+<li>Pull the count from a site commenting service.</li>
+<li>Move focus to another widget (most likely a related commenting widget) when this widget is clicked.
+<ul>
+<li><strong>The other widget may or may not be an Angular widget.</strong></li>
+</ul>
+</li>
+<li>Allow external widgets/things tell the directive to update its comment count from the service.
+<ul>
+<li><strong>The external “thing” may or may not be an “Angular thing”.</strong></li>
+</ul>
+</li>
+</ul>
+<p>Since the widget would usually be in an Angular app, making an Angular directive seemed like the thing to do. The directive would also be offered as a self-bootstrapping chunk of javascript for pages that weren’t using Angular but that’s beyond the scope of this post.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yes, You Belong Here - Helping Others With Impostor Syndrome]]></title>
+        <id>http://bressain.com/blog/2014-05-20-yes-you-belong-here-helping-others-with/</id>
+        <link href="http://bressain.com/blog/2014-05-20-yes-you-belong-here-helping-others-with/">
+        </link>
+        <updated>2014-05-21T04:42:00Z</updated>
+        <content type="html"><![CDATA[<p>This is part three of the series on my talk about impostor syndrome. You can read the first two parts <a href="/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">here</a> and <a href="/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">here</a>.</p>
+<div markdown="1" class="inline-image">
+    <img src="/blog/images/hand-reaching-bw.jpg" alt="hand reaching out" style="height:213px;width:320px;" />
+</div>
+<p>In <a href="/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">part two</a> I discussed things that you can do to overcome and manage impostor syndrome. I’m going to wrap things up by discussing things you can do to help others affected by impostor syndrome. Whether you aren’t affected by impostor syndrome or have a good handle on it, there are always things you can do to help.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yes, You Belong Here - Overcoming Impostor Syndrome]]></title>
+        <id>http://bressain.com/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/</id>
+        <link href="http://bressain.com/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">
+        </link>
+        <updated>2014-05-12T05:27:00Z</updated>
+        <content type="html"><![CDATA[<p>This is part two of the series on my talk about impostor syndrome. You can read the first part <a href="/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">here</a>.</p>
+<div markdown="1" class="inline-image">
+    <img src="/blog/images/2895379972_65e3f11fd4_m.jpg" alt="man sinking in leaves" />
+</div>
+<p>In <a href="/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">part one</a>, I discussed what impostor syndrome was and the effects of it. Hopefully you don’t feel limited by the effects of impostor syndrome but if you do, I hope this post can start you on a path that leads you to managing it so that you can succeed.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yes, You Belong Here - What is Impostor Syndrome?]]></title>
+        <id>http://bressain.com/blog/2014-04-25-yes-you-belong-here-what-is-impostor/</id>
+        <link href="http://bressain.com/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">
+        </link>
+        <updated>2014-04-25T21:30:00Z</updated>
+        <content type="html"><![CDATA[<p>This is part one of the series on my talk about impostor syndrome. You can read the second part <a href="/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">here</a>.</p>
+<div markdown="1" class="inline-image">
+    <img src="/blog/images/Imposter.jpg" alt="three cats one dog all fluff" style="height:194px;width:320px;" />
+</div>
+<p>This past month I spoke at the 2014 Spring Utah Code Camp. I don’t speak at conferences generally (2nd time speaking at a conference) but was convinced by some friends that I should speak about something. I only like to speak about subjects that I know quite a bit about and since I’ve been fighting a mild case of impostor syndrome on and off for the past year or so, it felt like a good fit.</p>
+<p>My slide deck is fairly minimal and the talk wasn’t filmed so this is part of a series of posts that go with the talk for those that are interested.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adventures In Losing Weight]]></title>
+        <id>http://bressain.com/blog/2014-02-02-adventures-in-losing-weight/</id>
+        <link href="http://bressain.com/blog/2014-02-02-adventures-in-losing-weight/">
+        </link>
+        <updated>2014-02-03T06:11:00Z</updated>
+        <content type="html"><![CDATA[<div markdown="1" class="inline-image">
+    <img src="/blog/images/nature_27_.jpg" alt="man with some rope" />
+</div>
+<p>I know a lot of developers that struggle with obesity and the problems that go with it (I even have a mild case of <a href="http://www.mayoclinic.org/diseases-conditions/peripheral-neuropathy/basics/definition/con-20019948">peripheral neuropathy</a> to show for mine). <strong>Between sitting at a desk all day at work (sometimes at night as well) and living an American lifestyle, it’s easy to gain weight.</strong> Losing weight (or at least talking about it) is a time-honored tradition in my family (blame my mother’s side) so it makes sense that I make at least one post about it.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thoughts On SCNA 2013]]></title>
+        <id>http://bressain.com/blog/2013-12-02-thoughts-on-scna-2013/</id>
+        <link href="http://bressain.com/blog/2013-12-02-thoughts-on-scna-2013/">
+        </link>
+        <updated>2013-12-03T05:08:00Z</updated>
+        <content type="html"><![CDATA[<div markdown="1" class="inline-image">
+    <img src="/blog/images/scna_logo.png" alt="scna logo" />
+</div>
+<p>I had the opportunity to go to <a href="http://scna.softwarecraftsmanship.org/">SCNA</a> this year. It was a lot of fun and represented a lot of firsts for me:</p>
+<ul>
+<li>First time going to SCNA.</li>
+<li>First time going to Chicago (and trying the pizza there).</li>
+<li>First time going to a conference outside of Utah.</li>
+<li>First time being in a skyscraper over 20 floors (the event was on the 80th floor!).</li>
+</ul>
+<p>I tend to lean towards introversion so conferences can be a bit draining for me but I’m glad I went. I was pulled completely out of my comfort zone which forces me to grow which is one tenant of software craftsmanship that I like.</p>
+<p>I thought it would be interesting to put down my thoughts on my experience for anyone interested or at least so that I can reflect on them later.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updated Podcasts]]></title>
+        <id>http://bressain.com/blog/2013-11-12-updated-podcasts/</id>
+        <link href="http://bressain.com/blog/2013-11-12-updated-podcasts/">
+        </link>
+        <updated>2013-11-12T17:20:00Z</updated>
+        <content type="html"><![CDATA[<p>Updated my podcast list today. If you’re into podcasts, <a href="/pages/podcasts/">have a look</a>. If I’m missing out on some amazing podcasts, please let me know.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't Ask, Tell]]></title>
+        <id>http://bressain.com/blog/2013-06-18-dont-ask-tell/</id>
+        <link href="http://bressain.com/blog/2013-06-18-dont-ask-tell/">
+        </link>
+        <updated>2013-06-18T06:49:00Z</updated>
+        <content type="html"><![CDATA[<p>I just read Michael Feathers’ post <a href="http://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html">Avoid Null Checks by Replacing Finders with Tellers</a> and it really made me think about how I write code.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yay RabbitMQ Part 1]]></title>
+        <id>http://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/</id>
+        <link href="http://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/">
+        </link>
+        <updated>2013-06-05T19:13:00Z</updated>
+        <content type="html"><![CDATA[<div markdown="1" class="inline-image">
+  <img src="/blog/images/rabbitmq_logo_strap.png" alt="rabbitmq logo" />
+</div>
+<p>One thing I’ve been working with a lot lately is <a href="http://www.rabbitmq.com/">RabbitMQ</a>. It was a bit confusing to work with at first but I think a lot of that was primarily because there was already a code base in place that was using it. Now that I’ve had a chance to understand the why’s and hows, I thought I’d share some of my experiences with it.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <email>dinkelburt@gmail.com</email>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
+</feed>
