@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://bressain.com</id>
+    <id>https://bressain.com</id>
     <title>Bressain</title>
-    <updated>2017-03-31T04:02:37Z</updated>
+    <updated>2017-03-31T04:24:48Z</updated>
     <author>
         <name>Bressain Dinkelman</name>
-        <email>dinkelburt@gmail.com</email>
-        <uri>http://bressain.com</uri>
+        <uri>https://bressain.com</uri>
     </author>
-    <link rel="alternate" href="http://bressain.com"/>
+    <link rel="alternate" href="https://bressain.com"/>
     <subtitle>A software development blog by Bressain Dinkelman</subtitle>
     <rights>All rights reserved 2016, Bressain Dinkelman</rights>
     <generator>Feed for Node.js</generator>
     <contributor>
         <name>Bressain Dinkelman</name>
-        <email>dinkelburt@gmail.com</email>
     </contributor>
     <entry>
         <title type="html"><![CDATA[Collaboration and Creativity]]></title>
-        <id>http://bressain.com/blog/2015-06-26-collaboration-and-creativity/</id>
-        <link href="http://bressain.com/blog/2015-06-26-collaboration-and-creativity/">
+        <id>https://bressain.com/blog/2015-06-26-collaboration-and-creativity/</id>
+        <link href="https://bressain.com/blog/2015-06-26-collaboration-and-creativity/">
         </link>
         <updated>2015-07-27T01:35:00Z</updated>
         <content type="html"><![CDATA[<p>I heard something interesting in an audiobook I was listening to the other day that gave me pause. It was in regards to how creativity can be stifled in group settings. Here was the scenario (paraphrased):</p>
@@ -32,14 +30,13 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Creating External Hooks In AngularJS Directives]]></title>
-        <id>http://bressain.com/blog/2014-07-13-creating-external-hooks-in-angularjs/</id>
-        <link href="http://bressain.com/blog/2014-07-13-creating-external-hooks-in-angularjs/">
+        <id>https://bressain.com/blog/2014-07-13-creating-external-hooks-in-angularjs/</id>
+        <link href="https://bressain.com/blog/2014-07-13-creating-external-hooks-in-angularjs/">
         </link>
         <updated>2014-07-13T22:02:00Z</updated>
         <content type="html"><![CDATA[<p>I ran into an interesting problem a few weeks ago at work. I was working on a stand-alone widget/directive that had the following requirements:</p>
@@ -61,14 +58,13 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Yes, You Belong Here - Helping Others With Impostor Syndrome]]></title>
-        <id>http://bressain.com/blog/2014-05-20-yes-you-belong-here-helping-others-with/</id>
-        <link href="http://bressain.com/blog/2014-05-20-yes-you-belong-here-helping-others-with/">
+        <id>https://bressain.com/blog/2014-05-20-yes-you-belong-here-helping-others-with/</id>
+        <link href="https://bressain.com/blog/2014-05-20-yes-you-belong-here-helping-others-with/">
         </link>
         <updated>2014-05-21T04:42:00Z</updated>
         <content type="html"><![CDATA[<p>This is part three of the series on my talk about impostor syndrome. You can read the first two parts <a href="/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">here</a> and <a href="/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">here</a>.</p>
@@ -79,14 +75,13 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Yes, You Belong Here - Overcoming Impostor Syndrome]]></title>
-        <id>http://bressain.com/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/</id>
-        <link href="http://bressain.com/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">
+        <id>https://bressain.com/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/</id>
+        <link href="https://bressain.com/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">
         </link>
         <updated>2014-05-12T05:27:00Z</updated>
         <content type="html"><![CDATA[<p>This is part two of the series on my talk about impostor syndrome. You can read the first part <a href="/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">here</a>.</p>
@@ -97,14 +92,13 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Yes, You Belong Here - What is Impostor Syndrome?]]></title>
-        <id>http://bressain.com/blog/2014-04-25-yes-you-belong-here-what-is-impostor/</id>
-        <link href="http://bressain.com/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">
+        <id>https://bressain.com/blog/2014-04-25-yes-you-belong-here-what-is-impostor/</id>
+        <link href="https://bressain.com/blog/2014-04-25-yes-you-belong-here-what-is-impostor/">
         </link>
         <updated>2014-04-25T21:30:00Z</updated>
         <content type="html"><![CDATA[<p>This is part one of the series on my talk about impostor syndrome. You can read the second part <a href="/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/">here</a>.</p>
@@ -116,14 +110,13 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Adventures In Losing Weight]]></title>
-        <id>http://bressain.com/blog/2014-02-02-adventures-in-losing-weight/</id>
-        <link href="http://bressain.com/blog/2014-02-02-adventures-in-losing-weight/">
+        <id>https://bressain.com/blog/2014-02-02-adventures-in-losing-weight/</id>
+        <link href="https://bressain.com/blog/2014-02-02-adventures-in-losing-weight/">
         </link>
         <updated>2014-02-03T06:11:00Z</updated>
         <content type="html"><![CDATA[<div markdown="1" class="inline-image">
@@ -133,14 +126,13 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Thoughts On SCNA 2013]]></title>
-        <id>http://bressain.com/blog/2013-12-02-thoughts-on-scna-2013/</id>
-        <link href="http://bressain.com/blog/2013-12-02-thoughts-on-scna-2013/">
+        <id>https://bressain.com/blog/2013-12-02-thoughts-on-scna-2013/</id>
+        <link href="https://bressain.com/blog/2013-12-02-thoughts-on-scna-2013/">
         </link>
         <updated>2013-12-03T05:08:00Z</updated>
         <content type="html"><![CDATA[<div markdown="1" class="inline-image">
@@ -158,42 +150,39 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Updated Podcasts]]></title>
-        <id>http://bressain.com/blog/2013-11-12-updated-podcasts/</id>
-        <link href="http://bressain.com/blog/2013-11-12-updated-podcasts/">
+        <id>https://bressain.com/blog/2013-11-12-updated-podcasts/</id>
+        <link href="https://bressain.com/blog/2013-11-12-updated-podcasts/">
         </link>
         <updated>2013-11-12T17:20:00Z</updated>
         <content type="html"><![CDATA[<p>Updated my podcast list today. If you’re into podcasts, <a href="/pages/podcasts/">have a look</a>. If I’m missing out on some amazing podcasts, please let me know.</p>
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Don't Ask, Tell]]></title>
-        <id>http://bressain.com/blog/2013-06-18-dont-ask-tell/</id>
-        <link href="http://bressain.com/blog/2013-06-18-dont-ask-tell/">
+        <id>https://bressain.com/blog/2013-06-18-dont-ask-tell/</id>
+        <link href="https://bressain.com/blog/2013-06-18-dont-ask-tell/">
         </link>
         <updated>2013-06-18T06:49:00Z</updated>
         <content type="html"><![CDATA[<p>I just read Michael Feathers’ post <a href="http://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html">Avoid Null Checks by Replacing Finders with Tellers</a> and it really made me think about how I write code.</p>
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Yay RabbitMQ Part 1]]></title>
-        <id>http://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/</id>
-        <link href="http://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/">
+        <id>https://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/</id>
+        <link href="https://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/">
         </link>
         <updated>2013-06-05T19:13:00Z</updated>
         <content type="html"><![CDATA[<div markdown="1" class="inline-image">
@@ -203,8 +192,7 @@
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
-            <email>dinkelburt@gmail.com</email>
-            <uri>http://bressain.com</uri>
+            <uri>https://bressain.com</uri>
         </author>
     </entry>
 </feed>
