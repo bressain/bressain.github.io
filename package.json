@@ -29,7 +29,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "rm -rf public && gatsby build --prefix-links && gh-pages -b master -d public",
+    "deploy": "rm -rf public && gatsby build && gh-pages -b master -d public",
     "start": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
