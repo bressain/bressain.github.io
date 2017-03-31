@@ -24,12 +24,11 @@ function generateAtomFeed(pages) {
   feed = new Feed({
     title: 'Bressain',
     description: 'A software development blog by Bressain Dinkelman',
-    link: 'http://bressain.com',
-    id: 'http://bressain.com',
+    link: 'https://bressain.com',
+    id: 'https://bressain.com',
     copyright: 'All rights reserved 2016, Bressain Dinkelman',
     author: {
-      name: 'Bressain Dinkelman',
-      email: 'dinkelburt@gmail.com'
+      name: 'Bressain Dinkelman'
     }
   })
 
@@ -42,8 +41,8 @@ function generateAtomFeed(pages) {
     .forEach(page => {
       feed.addItem({
         title: page.data.title,
-        id: `http://bressain.com${page.path}`,
-        link: `http://bressain.com${page.path}`,
+        id: `https://bressain.com${page.path}`,
+        link: `https://bressain.com${page.path}`,
         date: moment(page.data.date).toDate(),
         content: md.render(
           chopToBreak(
@@ -52,16 +51,14 @@ function generateAtomFeed(pages) {
         ),
         author: [{
           name: 'Bressain Dinkelman',
-          email: 'dinkelburt@gmail.com',
-          link: 'http://bressain.com'
+          link: 'https://bressain.com'
         }]
       })
     })
 
   feed.addContributor({
     name: 'Bressain Dinkelman',
-    email: 'dinkelburt@gmail.com',
-    link: 'http://bressain.com'
+    link: 'https://bressain.com'
   })
 
   fs.writeFileSync(`${__dirname}/public/atom.xml`, feed.render('atom-1.0'))
