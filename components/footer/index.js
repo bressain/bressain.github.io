@@ -2,9 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 
 import css from './index.module.css'
-import GithubIcon from '../images/github'
-import LinkedInIcon from '../images/linkedin'
-import TwitterIcon from '../images/twitter-icon'
+import { GithubIcon, LinkedInIcon, RssIcon, TwitterIcon } from '../images'
 
 export default function () {
   return (
@@ -22,6 +20,9 @@ export default function () {
           </a>
           <a href="https://www.github.com/bressain/">
             <GithubIcon className={css.social} />
+          </a>
+          <a href="/atom.xml">
+            <RssIcon className={css.social} />
           </a>
         </div>
         <div className={css['license-container']}>
