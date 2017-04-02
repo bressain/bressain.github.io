@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://bressain.com</id>
     <title>Bressain</title>
-    <updated>2017-04-01T21:52:27Z</updated>
+    <updated>2017-04-02T19:46:45Z</updated>
     <author>
         <name>Bressain Dinkelman</name>
         <uri>http://bressain.com</uri>
     </author>
     <link rel="alternate" href="http://bressain.com"/>
     <subtitle>A software development blog by Bressain Dinkelman</subtitle>
-    <rights>All rights reserved 2016, Bressain Dinkelman</rights>
+    <rights>All rights reserved 2017, Bressain Dinkelman</rights>
     <generator>Feed for Node.js</generator>
     <contributor>
         <name>Bressain Dinkelman</name>
