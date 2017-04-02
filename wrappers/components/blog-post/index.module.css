@@ -21,6 +21,7 @@
 .prev {
   margin-left: 0.45em;
   margin-right: auto;
+  max-width: calc(var(--article-width) / 2);
 }
 .prev:before {
   border-style: solid;
@@ -39,6 +40,7 @@
 .next {
   margin-right: 0.45em;
   margin-left: auto;
+  max-width: calc(var(--article-width) / 2);
 }
 .next:after {
   border-style: solid;

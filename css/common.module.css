@@ -1,7 +1,7 @@
 @import './variables.module.css';
 
 .container {
-  max-width: 960px;
+  max-width: var(--article-width);
   margin-left: auto;
   margin-right: auto;
   padding: var(--base-line-height) calc(var(--base-line-height) * .75);
