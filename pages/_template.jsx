@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import '../css/global.css'
 import '../css/markdown-styles.css'
@@ -11,6 +12,16 @@ module.exports = React.createClass({
     }
   },
   render () {
-    return <div>{this.props.children}</div>
+    return (
+      <div>
+        <Helmet
+          link={[
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }
+          ]}
+        />
+        {this.props.children}
+      </div>
+    )
   }
 })
