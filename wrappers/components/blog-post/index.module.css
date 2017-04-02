@@ -54,3 +54,6 @@
   left: 0.45em;
   transform: rotate(45deg);
 }
+.comments {
+  composes: container from '../../../css/common.module.css';
+}

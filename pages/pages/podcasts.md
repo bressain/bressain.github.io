@@ -3,6 +3,7 @@ layout: page
 title: Podcasts Wot I Listen To
 modified_time: '2015-06-13T00:00:00.000-06:00'
 permalink: /podcasts/
+comments: true
 ---
 Here are the podcasts that I listen to regularly.
 

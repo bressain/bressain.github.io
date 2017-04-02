@@ -1,8 +1,10 @@
 import React from 'react'
+import Disqus from 'react-disqus-comments'
 import { Link } from 'react-router'
 
 const { arrayOf, object, shape, string } = React.PropTypes
 
+import { config } from 'config'
 import css from './index.module.css'
 import Footer from '../../../components/footer'
 import Header from '../header'
@@ -44,6 +46,13 @@ export default function BlogPost (props) {
         {renderPrevLink(prevNext.prev)}
         {renderNextLink(prevNext.next)}
       </nav>
+      <div className={css.comments}>
+        <Disqus
+          identifier={path.replace('/blog/', '').replace('/', '')}
+          shortname="bressain"
+          title={post.title}
+          url={config.baseUrl + path} />
+      </div>
       <Footer />
     </div>
   )

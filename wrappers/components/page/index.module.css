@@ -5,3 +5,6 @@
 .updated {
   composes: sub-text from '../../../css/common.module.css';
 }
+.comments {
+  composes: container from '../../../css/common.module.css';
+}
