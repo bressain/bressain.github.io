@@ -82,7 +82,7 @@ Thanks again for reading. Please comment below if you have any questions or comm
 * [Impostor syndrome](http://geekfeminism.wikia.com/wiki/Impostor_syndrome) - Geek Feminism Wiki
 * [Hacker School User's Manual](https://www.hackerschool.com/manual#sec-environment) - Social rules
 
-<script async="" class="speakerdeck-embed" data-id="7e2c6cb08eea0131941d3e2d8ace8b00" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<iframe class="speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/player/7e2c6cb08eea0131941d3e2d8ace8b00?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: transparent; margin: 0px; padding: 0px; border-radius: 5px; width: 580px; height: 497px;"></iframe>
 
 <div markdown="1" class="photo-credit">
     <span>Photo Credit, David Niblack, </span>

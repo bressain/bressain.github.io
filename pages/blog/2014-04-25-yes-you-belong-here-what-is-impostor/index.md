@@ -76,4 +76,4 @@ Impostor syndrome can push people to level up in their skills but if they have a
 
 Sorry about that, **there really is a silver lining to all this** though! I don't want to try to fit everything into one post (already at tl;dr length IMO) so [next post](/blog/2014-05-11-yes-you-belong-here-overcoming-impostor/) will be about what you can do about impostor syndrome. Feel free to comment below or hit me up on Twitter and Google+.
 
-<script async class="speakerdeck-embed" data-id="7e2c6cb08eea0131941d3e2d8ace8b00" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<iframe class="speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/player/7e2c6cb08eea0131941d3e2d8ace8b00?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: transparent; margin: 0px; padding: 0px; border-radius: 5px; width: 580px; height: 497px;"></iframe>

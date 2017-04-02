@@ -77,7 +77,7 @@ This is weird advice because I'm basically telling you to be an impostor. If you
 
 That's great! That means the next post is for you. [Next time](/blog/2014-05-20-yes-you-belong-here-helping-others-with/) I'll wrap things up by talking about what you can do to help others with impostor syndrome. Once again, feel free to comment below or hit me up on Twitter or Google+.
 
-<script async="" class="speakerdeck-embed" data-id="7e2c6cb08eea0131941d3e2d8ace8b00" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<iframe class="speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/player/7e2c6cb08eea0131941d3e2d8ace8b00?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: transparent; margin: 0px; padding: 0px; border-radius: 5px; width: 580px; height: 497px;"></iframe>
 
 <div markdown="1" class="photo-credit">
     <span>Photo Credit, Tim Alosi, </span>

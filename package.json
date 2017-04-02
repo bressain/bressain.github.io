@@ -26,7 +26,12 @@
   "devDependencies": {
     "gh-pages": "^0.11.0"
   },
-  "main": "n/a",
+  "license": "unlicensed",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bressain/bressain.github.io.git"
+  },
   "scripts": {
     "build": "gatsby build",
     "deploy": "rm -rf public && gatsby build && gh-pages -b master -d public",

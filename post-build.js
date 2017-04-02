@@ -26,7 +26,7 @@ function generateAtomFeed(pages) {
     description: 'A software development blog by Bressain Dinkelman',
     link: 'http://bressain.com',
     id: 'http://bressain.com',
-    copyright: 'All rights reserved 2016, Bressain Dinkelman',
+    copyright: 'All rights reserved 2017, Bressain Dinkelman',
     author: {
       name: 'Bressain Dinkelman'
     }
