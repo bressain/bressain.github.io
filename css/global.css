@@ -18,6 +18,9 @@ a {
     color: var(--brand-color-darkest);
   }
 }
+img {
+  margin: 0;
+}
 
 .inline-image {
   float: left;
