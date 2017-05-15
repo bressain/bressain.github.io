@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://bressain.com</id>
     <title>Bressain</title>
-    <updated>2017-04-02T20:21:51Z</updated>
+    <updated>2017-05-15T02:41:33Z</updated>
     <author>
         <name>Bressain Dinkelman</name>
         <uri>http://bressain.com</uri>
@@ -14,6 +14,20 @@
     <contributor>
         <name>Bressain Dinkelman</name>
     </contributor>
+    <entry>
+        <title type="html"><![CDATA[My Origin Story]]></title>
+        <id>http://bressain.com/blog/2017-05-14-my-origin-story/</id>
+        <link href="http://bressain.com/blog/2017-05-14-my-origin-story/">
+        </link>
+        <updated>2017-05-14T06:00:00Z</updated>
+        <content type="html"><![CDATA[<p><img src="/blog/images/origin-header.jpg" alt="ninja turtle comic header"></p>
+<p>Every developer has an “origin story”, the story of how they got into this crazy career. I’m always interested in hearing how people find their way into software development as it tells me a little about where their passions lie. Did you come from an artistic side? Did you come from the business realm? Have you been programming since you could type? Here’s my origin story.</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Collaboration and Creativity]]></title>
         <id>http://bressain.com/blog/2015-06-26-collaboration-and-creativity/</id>
@@ -173,22 +187,6 @@
         </link>
         <updated>2013-06-18T06:49:00Z</updated>
         <content type="html"><![CDATA[<p>I just read Michael Feathers’ post <a href="http://michaelfeathers.typepad.com/michael_feathers_blog/2013/06/avoid-null-checks-by-replacing-finders-with-tellers.html">Avoid Null Checks by Replacing Finders with Tellers</a> and it really made me think about how I write code.</p>
-]]></content>
-        <author>
-            <name>Bressain Dinkelman</name>
-            <uri>http://bressain.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yay RabbitMQ Part 1]]></title>
-        <id>http://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/</id>
-        <link href="http://bressain.com/blog/2013-06-05-yay-rabbitmq-part-1/">
-        </link>
-        <updated>2013-06-05T19:13:00Z</updated>
-        <content type="html"><![CDATA[<div markdown="1" class="inline-image">
-  <img src="/blog/images/rabbitmq_logo_strap.png" alt="rabbitmq logo" />
-</div>
-<p>One thing I’ve been working with a lot lately is <a href="http://www.rabbitmq.com/">RabbitMQ</a>. It was a bit confusing to work with at first but I think a lot of that was primarily because there was already a code base in place that was using it. Now that I’ve had a chance to understand the why’s and hows, I thought I’d share some of my experiences with it.</p>
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
