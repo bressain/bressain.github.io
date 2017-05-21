@@ -22,10 +22,10 @@ function chopToBreak(articleBody) {
 
 function generateAtomFeed(pages) {
   feed = new Feed({
-    title: 'Bressain',
+    title: 'Bressain.com',
     description: 'A software development blog by Bressain Dinkelman',
-    link: 'http://bressain.com',
-    id: 'http://bressain.com',
+    link: 'http://bressain.com/',
+    id: 'http://bressain.com/',
     copyright: 'All rights reserved 2017, Bressain Dinkelman',
     author: {
       name: 'Bressain Dinkelman'

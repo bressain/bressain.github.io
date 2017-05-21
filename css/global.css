@@ -3,6 +3,15 @@
 div, p {
   color: var(--text-color);
 }
+blockquote {
+  border-left: solid 4px hsla(0,0%,0%,0.4);
+  margin-left: 0;
+  padding-left: var(--base-line-height);
+  color: hsla(0,0%,0%,0.4);
+  & > p {
+    color: hsla(0,0%,0%,0.4);
+  }
+}
 a {
   text-decoration: none;
   color: var(--brand-color);
