@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://bressain.com/</id>
     <title>Bressain.com</title>
-    <updated>2017-05-21T23:55:36Z</updated>
+    <updated>2017-11-10T16:10:41Z</updated>
     <author>
         <name>Bressain Dinkelman</name>
         <uri>http://bressain.com</uri>
@@ -14,6 +14,20 @@
     <contributor>
         <name>Bressain Dinkelman</name>
     </contributor>
+    <entry>
+        <title type="html"><![CDATA[Swapping redux-thunk With redux-saga For Better Testing]]></title>
+        <id>http://bressain.com/blog/2017-stuff/</id>
+        <link href="http://bressain.com/blog/2017-stuff/">
+        </link>
+        <updated>2017-11-10T07:00:00Z</updated>
+        <content type="html"><![CDATA[<p><img src="/blog/images/redux-saga.png" alt="redux-saga logo"></p>
+<p>I think it’s pretty safe to say at this point that the vast majority of React code bases that need state management are using Redux. One of the things people like about Redux (yours truly included), is the testing story is great. Because reducers don’t allow mutating state, you’ll get the same result with the same input every time (yay functional paradigms!). But then there’s testing actions…</p>
+]]></content>
+        <author>
+            <name>Bressain Dinkelman</name>
+            <uri>http://bressain.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[More Adventures In Losing Weight]]></title>
         <id>http://bressain.com/blog/2017-05-21-more-adventures-in-losing-weight/</id>
@@ -175,19 +189,6 @@
 </ul>
 <p>I tend to lean towards introversion so conferences can be a bit draining for me but I’m glad I went. I was pulled completely out of my comfort zone which forces me to grow which is one tenant of software craftsmanship that I like.</p>
 <p>I thought it would be interesting to put down my thoughts on my experience for anyone interested or at least so that I can reflect on them later.</p>
-]]></content>
-        <author>
-            <name>Bressain Dinkelman</name>
-            <uri>http://bressain.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Updated Podcasts]]></title>
-        <id>http://bressain.com/blog/2013-11-12-updated-podcasts/</id>
-        <link href="http://bressain.com/blog/2013-11-12-updated-podcasts/">
-        </link>
-        <updated>2013-11-12T17:20:00Z</updated>
-        <content type="html"><![CDATA[<p>Updated my podcast list today. If you’re into podcasts, <a href="/pages/podcasts/">have a look</a>. If I’m missing out on some amazing podcasts, please let me know.</p>
 ]]></content>
         <author>
             <name>Bressain Dinkelman</name>
