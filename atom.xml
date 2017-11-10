@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://bressain.com/</id>
     <title>Bressain.com</title>
-    <updated>2017-11-10T16:10:41Z</updated>
+    <updated>2017-11-10T16:14:05Z</updated>
     <author>
         <name>Bressain Dinkelman</name>
         <uri>http://bressain.com</uri>
@@ -16,8 +16,8 @@
     </contributor>
     <entry>
         <title type="html"><![CDATA[Swapping redux-thunk With redux-saga For Better Testing]]></title>
-        <id>http://bressain.com/blog/2017-stuff/</id>
-        <link href="http://bressain.com/blog/2017-stuff/">
+        <id>http://bressain.com/blog/2017-11-10-swapping-redux-thunk-with-redux-saga/</id>
+        <link href="http://bressain.com/blog/2017-11-10-swapping-redux-thunk-with-redux-saga/">
         </link>
         <updated>2017-11-10T07:00:00Z</updated>
         <content type="html"><![CDATA[<p><img src="/blog/images/redux-saga.png" alt="redux-saga logo"></p>
